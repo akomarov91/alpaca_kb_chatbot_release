@@ -1,0 +1,5 @@
+.idea
+__pycache__
+.streamlit/secrets.toml
+secrets.toml
+

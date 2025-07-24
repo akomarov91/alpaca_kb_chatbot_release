@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html,
+body,
+body * {
+    font-family: "Poppins", sans-serif !important;
+
+}
+
+#root {
+    font-family: "Poppins", sans-serif !important;
+
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-weight: 600 !important;
+}
+
+h1 {
+    padding-bottom: 0 !important;
+}
+
+h3 {
+    text-transform: none;
+    font-weight: 400 !important;
+    font-size: 2rem;
+}
+
+textarea {
+    min-height: 3.5rem
+}
+
+div[data-testid="stBottomBlockContainer"] {
+    min-height: 3.5rem;
+}
+
+div[data-testid="stBottom"] {
+    position: static !important;
+}
+
+header {
+    display: none !important;
+}
+
+footer {
+    display: none !important;
+}
+
+div[data-testid="stChatInput"] div:first-child div:last-child {
+    align-items: center !important;
+}
+
+div[data-testid="stChatInput"]>div:first-child {
+    max-height: max-content;
+    border: 5px solid rgb(192, 234, 18)
+}
+
+
+.stMainBlockContainer {
+    padding-top: 1rem;
+}
+
+.stMarkdownContainer p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
