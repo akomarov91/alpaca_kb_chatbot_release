@@ -1,0 +1,11 @@
+Timestamp,User,Bot
+2025-07-29T19:11:59.604871,"Hi chat, tell me about Lab in the system","The Laboratory Information System (LIS) module in the system allows users to create, manage, and organize laboratory tests, and generate lab orders and complex tests. It includes tools for pricing, materials management, and lab workflow automation. You can create new lab tests by clicking + Create record and filling in the required parameters. The lab test will then appear in the Lab Tests List.
+
+The LIS module also has a Units section designed to manage the measurement units used for laboratory tests and their results. Correct units are essential for ensuring accurate interpretation of results and maintaining standardization across the system.
+
+The system also allows for the creation and management of lab orders. You can track lab orders from all doctors and departments, and there are various filtering and search tools available. The system also allows for the customization of how lab orders and results are printed, barcode label parameters, and how external integrations behave. 
+
+For urgent help, you can mark your ticket as High Priority, and the team will get to it as soon as possible. You can track the status of your request from your Helpdesk dashboard and receive updates via email when support staff respond."
+2025-07-29T19:13:19.294220,tell me abot Reception,"The Reception Module of Alpaca is designed for check-in management, patient scheduling, and payment tracking. It allows receptionists to view appointments, manage patient arrivals, update check-in status, and track payments. The interface includes a Schedule Tab that displays upcoming patient appointments and a Lab orders tab that displays upcoming ordered laboratory tests. The module also supports automatic confirmation messages sent to clients upon appointment booking or update. The Main Reception Screen is the operational heart of the Reception module, allowing receptionists to manage appointments, lab orders, patient check-ins, payments, and communications in one convenient interface."
+2025-07-29T19:13:35.494801,and he link please,"I'm sorry, but your question is not clear. Could you please provide more details or context?"
+2025-07-29T19:13:48.662917,the link for Reception module,[Link: https://kb.alpacamed.com/pd/reception-module]

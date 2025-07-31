@@ -9,6 +9,8 @@ import time
 import os
 import streamlit as st
 
+from chat_logger_with_weekly_rotation import log_chat_to_csv
+
 api_key = st.secrets['openai']['api_key']
 
 client = openai.OpenAI(api_key=api_key)
@@ -98,7 +100,7 @@ Here are relevant passages:
 
 {context}
 
-Now respond to this query. If the answer cannot be directly found or inferred from the text, say: "This is not mentioned in the Alpaca QA."
+Now respond to this query. If the answer cannot be directly found or inferred from the text, say: "I can't find the answer to your question in the Alpaca knowledge base, please contact support at: https://hd.service.alpacamed.com/"
 
 User: {query}
 Answer:
@@ -110,6 +112,15 @@ Answer:
         ],
         temperature=0
     )
-    return response.choices[0].message.content.strip()
+
+    # Step 4: Get and clean the response
+    answer = response.choices[0].message.content.strip()
+
+    #  Step 5: Log the user question and bot answer
+    log_chat_to_csv(query, answer)
+
+    # Step 6: Return the response
+    return answer
+
 
 
